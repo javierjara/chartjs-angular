@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MultiAxisChartComponent } from './multi-axis-chart.component';
+import { LineChartComponent } from './line-chart.component';
 
-describe('MultiAxisChartComponent', () => {
-  let component: MultiAxisChartComponent;
-  let fixture: ComponentFixture<MultiAxisChartComponent>;
+describe('LineChartComponent', () => {
+  let component: LineChartComponent;
+  let fixture: ComponentFixture<LineChartComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MultiAxisChartComponent ]
+      declarations: [ LineChartComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MultiAxisChartComponent);
+    fixture = TestBed.createComponent(LineChartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
